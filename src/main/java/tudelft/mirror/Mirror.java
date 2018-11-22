@@ -16,6 +16,6 @@ public class Mirror {
             }
         }
 
-        return begin == end ? string : mirror;
+        return begin >= end ? string : mirror;
     }
 }
